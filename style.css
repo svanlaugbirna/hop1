@@ -15,12 +15,9 @@ body {
     font-family: Mulish;
 }
 
-.main {
-    position: relative;
-    border: 3px solid #73AD21;
-}
 
-.main .sidenav {
+
+.container-text .sidenav {
     width: 250px;
     height: 600px;
     position: sticky;
@@ -34,7 +31,7 @@ body {
     border: 3px solid #73AD21;
   }
   
-  .sidenav a:hover {
+.sidenav a:hover {
     color: #064579;
   }
 
@@ -52,7 +49,7 @@ body {
 }
 
 
-.main h1 {
+.container-text h1 {
     font-size: 38pt;
     top: 0;
     border: 3px solid #73AD21;
