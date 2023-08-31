@@ -15,8 +15,7 @@ body {
     font-family: Mulish;
 }
 
-
-
+/*Here is the style for "Folfvellir"*/
 .container-text .sidenav {
     width: 250px;
     height: 600px;
@@ -58,7 +57,6 @@ body {
 .container-text {
     width: 100%;
     position: relative;
-    
     border: 3px solid #73AD21;
 }
 
@@ -74,6 +72,8 @@ body {
     padding: 1.5em;
     text-align: left;
     margin-left: 250px;
-    
     border: 3px solid #73AD21;
 }
+
+/*here is the style for the main page*/
+
