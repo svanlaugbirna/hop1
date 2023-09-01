@@ -1,10 +1,5 @@
 
 
-img{
-    width: 100%;
-    height: auto;
-}
-
 button {background-color: black;
 color: white;} 
 
@@ -19,65 +14,45 @@ ul {
     list-style-type: none;
 }
 
-/*Here is the style for "Folfvellir"*/
-.container-text .sidenav {
-    width: 250px;
-    height: 600px;
-    position: sticky;
-    float: left;
-    z-index: 1;
-    top: 50px;
-    left: 10px;
-    background: #eee;
-    overflow-x: hidden;
-    padding: 8px 0;
-    border: 3px solid #73AD21;
-  }
-  
-.sidenav a:hover {
-    color: #064579;
-  }
-
-.sidenav ul {
-    list-style-type: none;
-    text-align: left;
+header {
+    font-family: Mulish;
 }
 
-.sidenav ul a {
-    text-decoration: none;
-    color: black;
-    padding: 6px 8px 18px 6px;
-    font-size: 25px;
-    display: block;
-}
-
-
-.container-text h1 {
-    font-size: 38pt;
-    top: 0;
-    border: 3px solid #73AD21;
-}
-
-.container-text {
-    width: 100%;
+.bg-img {
+    background-image: url("images/disc-golf.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    border: 3px solid #73AD21;
 }
 
-.container-text img {
-    width: 50%;
-    height: auto;
-    display: flex;
-    float: right;
+.container-head {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+    left: 50%;
 }
 
-.container-text p {
-    font-size: 18pt;
-    padding: 1.5em;
-    text-align: left;
-    margin-left: 250px;
-    border: 3px solid #73AD21;
+.topnav {
+    overflow: hidden;
+    background-color: #333;
 }
+
+  .topnav a {
+    position: relative;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
 /*here is the style for the main page*/
 .container1 {
@@ -86,7 +61,6 @@ ul {
     margin-top: 90px;
     display: flex;
     padding: 3em;
-    border: 3px solid #73AD21;
 }
 
 .container1 h1 {
@@ -99,7 +73,7 @@ ul {
     display: inherit;
     float: left;
     margin-left: 6em;
-    margin-right: 6em;
+    margin-right: 12em;
     padding-top: 1em;
     text-align: left;
     font-size: 15pt;
@@ -109,17 +83,22 @@ ul {
     width: 50%;
     height: auto;
     float: right;
+    margin-right: 10em;
 }
 
 .container2 {
+    margin: 0;
     width: 100%;
     height: 400px;
     margin-top: 80px;
-    border: 3px solid #73AD21;
 }
 
 .container2 h1 {
     font-size: 28pt;
+}
+
+.img-list2 {
+    background-color: #D9D9D9;
 }
 
 .img-list2 ul {
@@ -155,7 +134,6 @@ ul {
 .container3 ul {
     width: auto;
     display: inline-flexbox;
-    background-color: #D9D9D9;
 }
 
 .img-list3 img {
@@ -176,4 +154,62 @@ ul {
     font-size: 28pt;
 }
 
+/*Here is the style for "Folfvellir"*/
+.container-text .sidenav {
+    width: 250px;
+    height: 600px;
+    position: sticky;
+    float: left;
+    z-index: 1;
+    top: 50px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+.sidenav a:hover {
+    color: #064579;
+  }
 
+.sidenav ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.sidenav ul a {
+    text-decoration: none;
+    color: black;
+    padding: 6px 8px 18px 6px;
+    font-size: 25px;
+    display: block;
+}
+
+.container-text h1 {
+    font-size: 38pt;
+    top: 0;
+}
+
+.container-text {
+    width: 100%;
+    position: relative;
+}
+
+.container-text img {
+    width: 50%;
+    height: auto;
+    display: flex;
+    float: right;
+}
+
+.container-text p {
+    font-size: 18pt;
+    padding: 1.5em;
+    text-align: left;
+    margin-left: 250px;
+}
+
+/*Höfuðborgarsvæði page*/
+.hofudb-content {
+    display: inline-table;
+}
