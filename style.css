@@ -1,8 +1,7 @@
 body {
     margin: 0;
-    font-family: sans-serif;
     text-align: center;
-    font-family: Mulish;
+    font-family: 'Mulish';
 }
 
 ul {
@@ -47,7 +46,7 @@ header {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #49bfc6;
     color: black;
   }
 
@@ -97,7 +96,7 @@ header {
 }
 
 .img-list2 {
-    background-color: #D9D9D9;
+    background-color: #cacaca;
 }
 
 .img-list2 ul {
@@ -161,7 +160,7 @@ footer {
     height: 300px;
     width: auto;
     margin: 0;
-    background-color: #D9D9D9;
+    background-color: #49bfc6;
 }
 
 .logos {
@@ -201,14 +200,13 @@ footer {
     float: left;
     z-index: 1;
     top: 50px;
-    background: #eee;
+    background: #49bfc6;
     overflow-x: hidden;
     padding: 8px 0;
   }
   
 .sidenav a:hover {
-    background-color: #333;
-    color: #eee;
+    color: #cacaca;
     transition: all 0.3s ease;
   }
 
