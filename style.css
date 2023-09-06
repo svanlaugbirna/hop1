@@ -200,13 +200,12 @@ footer {
     float: left;
     z-index: 1;
     top: 50px;
-    background: #49bfc6;
+    background: #cacaca;
     overflow-x: hidden;
-    padding: 8px 0;
   }
   
 .sidenav a:hover {
-    color: #cacaca;
+    color: #49bfc6;
     transition: all 0.3s ease;
   }
 
