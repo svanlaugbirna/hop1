@@ -160,7 +160,7 @@ footer {
     height: 300px;
     width: auto;
     margin: 0;
-    background-color: #49bfc6;
+    background-color: #cacaca;
 }
 
 .logos {
@@ -169,6 +169,7 @@ footer {
 
 .logos img {
     padding-inline: 1em;
+    color: #49bfc6;
 }
 
 .logos img:hover {
