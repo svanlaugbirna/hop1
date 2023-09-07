@@ -1,15 +1,11 @@
 body {
     margin: 0;
     text-align: center;
-    font-family: 'Mulish';
+    font-family: 'Mulish', sans-serif;
 }
 
 ul {
     list-style-type: none;
-}
-
-header {
-    font-family: Mulish;
 }
 
 .bg-img {
@@ -31,13 +27,14 @@ header {
 /*top navigation bar*/
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #cacaca;
+    border-radius: 20px;
 }
 
   .topnav a {
     position: relative;
     float: left;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -169,7 +166,6 @@ footer {
 
 .logos img {
     padding-inline: 1em;
-    color: #49bfc6;
 }
 
 .logos img:hover {
@@ -191,18 +187,23 @@ footer {
     font-size: 14pt;
 }
 
+.footer-list a:hover {
+    color: #49bfc6;
+}
+
 /*Here is the style for "Folfvellir"*/
 
 /*side navigation bar*/
 .container-text .sidenav {
     width: 260px;
-    height: 600px;
+    height: 430px;
     position: sticky;
     float: left;
     z-index: 1;
     top: 50px;
     background: #cacaca;
     overflow-x: hidden;
+    border-radius: 20px;
   }
   
 .sidenav a:hover {
@@ -221,7 +222,7 @@ footer {
     text-decoration: none;
     color: black;
     padding: 6px 8px 18px 6px;
-    font-size: 25px;
+    font-size: 20px;
     display: block;
 }
 
